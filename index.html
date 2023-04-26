@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" type="text/css" href="style.css">
- 
+<script src="main.js"></script>
 </head>
 
 <body>
@@ -55,7 +55,10 @@
         <div class="line"></div>
         <hr>
         <hr>
-        <input type="text" id="msg" class="form-control" placeholder="Reminders">
+        <input type="text" id="rem" class="form-control" placeholder="Reminders">
+        <p id="p1"></p>
+        <br>
+        <button id="text1"  onclick="addText1()">Enter</button>
     </section>
 
 <hr >
@@ -64,7 +67,10 @@
         <div class="line"></div>
         <hr>
         <hr>
-        <input type="text" id="msg" class="form-control" placeholder="Dates">
+        <input type="text" id="date" class="form-control" placeholder="Dates">
+        <p id="p2"></p>
+        <br>
+        <button id="text2" onclick="addText2()">Enter</button>
 
 
     </section>
